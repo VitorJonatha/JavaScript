@@ -1,48 +1,70 @@
-body{
-    background: rgb(197, 24, 24);
+body {
+    background: linear-gradient(180deg, rgb(63, 7, 93) 0%, rgb(78, 34, 148)5%, rgb(215, 155, 253) 100%);
     font: normal 15pt Arial;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+h1 {
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+header {
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
-#container{
-    background: rgb(253, 253, 255);
-    background: linear-gradient(130deg, rgb(46, 12, 108) 0%, rgb(88, 72, 255) 35%, rgb(189, 177, 255) 100%);
+#container {
+    background: rgba(56, 24, 163, 0.283);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(11, 8, 19, 0.615);
+    box-shadow: 6px 6px 10px 5px rgba(4, 4, 23, 0.669);
     text-align: center;
 }
 
-footer{
+footer {
     text-align: center;
     font-style: italic;
 }
 
-img{
+img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
 
-#ficaaqui{
+#ficaaqui {
     text-align: center
 }
 
-#resdores{
+#resdores {
     align-items: center;
 }
 
-#button{
-    background-color: rgb(67, 185, 67);
+#button {
+    width: 120px;
+    height: 25px;
+    background-color: rgb(20, 147, 58);
     border-radius: 5px;
-    box-shadow: 3px 3px 5px rgb(0, 58, 0);
+    box-shadow: 4px 4px 4px 1px rgba(11, 21, 0, 0.73);
+    border: none;
 }
-#button:active{
+
+#txtano{
+    height: 17px;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+}
+#button:active {
+    border: none;
     box-shadow: none;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-bottom: -3px;
 }

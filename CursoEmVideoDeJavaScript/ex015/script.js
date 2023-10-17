@@ -18,36 +18,36 @@ function verificar() {
             if (idade > 0 && idade <= 10) {
                 //Criança
                 gen = 'menino'
-                img.setAttribute('src', '/ex015/IMG/menino.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/menino.jpg')
             } else if (idade >= 11 && idade <= 24) {
                 //Jovem
                 gen = 'garoto'
-                img.setAttribute('src', '/ex015/IMG/garoto.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/garoto.jpg')
             } else if (idade < 50) {
                 //Adulto
-                img.setAttribute('src', '/ex015/IMG/homem-adulto.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/homem-adulto.jpg')
             } else {
                 //idoso
                 gen = 'senhor'
-                img.setAttribute('src', '/ex015/IMG/homem-idoso.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/homem-idoso.jpg')
             }
         } else if (fsex[1].checked) {
             gen = 'mulher'
             if (idade > 0 && idade <= 10) {
                 //Criança
                 gen = 'menina'
-                img.setAttribute('src', '/ex015/IMG/menina.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/menina.jpg')
             } else if (idade >= 11 && idade <= 24) {
                 //Jovem
                 gen = 'garota'
-                img.setAttribute('src', '/ex015/IMG/mulher-jovem.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/mulher-jovem.jpg')
             } else if (idade < 50) {
                 //Adulto
-                img.setAttribute('src', '/ex015/IMG/mulher-adulta.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/mulher-adulta.jpg')
             } else {
                 //idoso
                 gen = 'senhora'
-                img.setAttribute('src', '/ex015/IMG/mulher-idosa.jpg')
+                img.setAttribute('src', '/JavaScript/CursoEmVideoDeJavaScript/ex015/IMG/mulher-idosa.jpg')
             }
         }
         res.innerHTML = `Detectamos ${gen} com ${idade} anos.`

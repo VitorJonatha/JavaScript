@@ -3,7 +3,11 @@
 }
 body{
     font: normal 15pt Arial;
-    background-image: url(JavaScript\CursoEmVideoDeJavaScript\ex016\back.jpg);
+    background-image: url(/JavaScript/CursoEmVideoDeJavaScript/ex016/back.jpg);
+}
+
+h1{
+    padding-top: 55px;
 }
 
 header{
