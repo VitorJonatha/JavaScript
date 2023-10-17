@@ -1,0 +1,48 @@
+body{
+    background: rgb(197, 24, 24);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#container{
+    background: rgb(253, 253, 255);
+    background: linear-gradient(130deg, rgb(46, 12, 108) 0%, rgb(88, 72, 255) 35%, rgb(189, 177, 255) 100%);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(11, 8, 19, 0.615);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#ficaaqui{
+    text-align: center
+}
+
+#resdores{
+    align-items: center;
+}
+
+#button{
+    background-color: rgb(67, 185, 67);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(0, 58, 0);
+}
+#button:active{
+    box-shadow: none;
+}

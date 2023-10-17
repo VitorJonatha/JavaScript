@@ -1,0 +1,21 @@
+        Aula 16
+    Funções
+
+-Funções são ações executadas assim que são chamadas ou em decorrência de um evnto.
+-Uma função pode receber parâmetros e retornar um resultado.
+
+function ação(parâmetro)=>(parâmetro) {
+    \\\\\///// =>(ação)
+    return res
+}
+ação(5)=>(Chamada)
+
+
+finction parImpar(n)=>(Parâmetro) {
+    if (n % 2 == 0) { => (Ação (O if todo))
+        return 'par'
+    } else {
+        return 'ímpar'=>(Retorno (só pode haver um retorno))
+    }
+}
+let res = parImpar(11)=>(Chamada)

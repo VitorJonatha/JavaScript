@@ -1,0 +1,8 @@
+        Aula 17
+    Objetos
+
+Usa chaves {}
+
+Além de guardar valores (Atributos), guarda funcionalidades (métodos)
+
+let amigo = {nome:'José',sexo:'M',peso:85.4,engordar(p){}}

@@ -1,0 +1,19 @@
+        Aula 13
+
+    -Repetição
+
+    var i = 1
+while (i <= 6) {
+    console.log(`Passo ${i}`)
+    i++
+}
+
+        OU
+        
+ (do = faça)
+
+var i = 1
+do {
+    console.log(`Passo ${i}`)
+    i++
+} while (i <= 6)

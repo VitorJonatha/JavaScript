@@ -1,0 +1,73 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    font: normal 15pt Arial;
+    background-image: url(JavaScript\CursoEmVideoDeJavaScript\ex016\back.jpg);
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+#conteudo{
+    color: white;
+    background: linear-gradient(#8b225795 35%, #fa8a3595 100%);
+    border-radius: 17px 0px 17px 0px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.615);
+    text-align: center;
+    border: 2px 2px 2px rgba(0, 0, 0, 0.859);
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.number{
+    width: 150px;
+    margin: 5px;
+}
+
+#button{
+    width: 76px;
+    height: 22px;
+    margin-top: 5px;
+    background-color: rgba(132, 70, 198, 0.315);
+    color: rgb(8, 8, 8);
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px rgb(28, 16, 5);
+    border: none;
+    border-radius: 6px 0px 6px 0;
+    margin-left: 212px;
+}
+
+#button:active{
+    box-shadow: 1px 1px 3px rgb(20, 12, 4);
+}
+input{
+    border: 1px 1px rgba(148, 148, 148, 0.613);
+    border-radius: 3px;
+    height: 13px;
+}
+
+footer{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+#res{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 10px;
+}
+

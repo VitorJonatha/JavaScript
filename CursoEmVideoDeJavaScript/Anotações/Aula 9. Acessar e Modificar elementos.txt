@@ -1,0 +1,6 @@
+	Aula 9 ex 005
+
+-const = nome da constante = document.getElementsByTagName(tagname do elemento ex: 'div', 'p', 'ul')
+-var = nome da variável = document.getElementsById('id do elemento')
+-var = nome da variável = document.querySelector('Elemento + sintax do CSS + o I d ou classe' ex: 'div#msg', 'p.linha')
+-nome da variável + . + innerText = 'texto que vai para o elemento'    	Muda o texto do elemento

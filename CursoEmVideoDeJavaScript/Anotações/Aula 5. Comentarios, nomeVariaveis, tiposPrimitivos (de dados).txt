@@ -1,0 +1,45 @@
+	Aula 5
+
+-Para Comentar:
+// :Comentar em uma única linha
+
+/* */ :Comentar em mais de uma llinha de código
+
+====================================================================
+
+nome de cada variável = identificador
+
+-Podem começar com letra,$ ou _
+-Não podem começar com números
+-É possível usar acentos e símbolos
+-Não podem conter espaços
+-Não podem ser palavras reservadas (palavras que o javascript usa, ex: function)
+
+====================================================================
+
+Tipos Primitivos de dados
+	Number: 5, 58, -12, 0,5, -15.9, 3.14, 8.0.
+	String: "Google", "JavaScript", `Maria`, telefone, CPF.
+	Boolean: True, False.
+
+	typeof: Mostra o tipo de dado. 
+
+
+
+
+
+
+
+function adicionar() {
+    for (var i = 0; i <= vetor.length; i++) {
+        if (i === n) {
+            window.alert('Este número já foi adicionado!')
+            break
+        } else {
+            var itemVetor = vetor.push(n)
+            let item = document.createElement('option')
+            item.text = `Número ${n} adicionado`
+            selectRes.appendChild(item)
+        }
+    }
+}

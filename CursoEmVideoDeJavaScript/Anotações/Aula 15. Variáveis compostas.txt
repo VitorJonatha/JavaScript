@@ -1,0 +1,19 @@
+        Aula 15
+    Variáveis compostas
+
+    *Vetor 
+
+-é composto de elementos
+
+-Um vetor (ou array) é uma Variável que tem vários elementos.
+ Cada elemento é composto por seu valor e por uma chave de indentificação
+
+
+ let num = [5, 8, 4]
+ 
+ -num[3] = 6 (Adiciona o número 6 na posição 3)
+ -num.push(7) (Adiciona o valor 7 na próxima posição)
+ -num.length (Para saber o comprimento do vetor)
+ -num.sort() (Coloca os valores em ordem alfabética)
+ -num.indexOf(7) (vai me retornar a chave em que o valor de encontra)
+ 

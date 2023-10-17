@@ -1,0 +1,32 @@
+	Aula 6
+
+Comandos
+-window.prompt('Input') "Ele retorna uma string"
+-window.alert('alerta') "Também retorna uma string"
+
+================================================
+(number) + (number) para adição
+
+(string) + (string) para concatanação
+
+================================================
+	Conversão de String para Number
+
+	(n) = O que eu quero converter
+
+-Number.parseInt(n) "Para número Inteiro"
+-Number.parseFloat(n) "Para número Real"
+-Number(n) "Ele se vira para saber o tipo do número"
+
+var n1 = Number(window.prompt(`Digite um número`))
+
+================================================
+	De Number para String
+
+String(n)
+
+n.toString()
+
+================================================
+
+place roader: "Printar" o valor da variável = ${nomeVariável}

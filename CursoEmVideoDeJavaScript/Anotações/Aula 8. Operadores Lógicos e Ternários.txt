@@ -1,0 +1,23 @@
+ 	Aula 8
+
+		OPERADORES LÓGICOS
+
+- ! = Negação =
+	Só é verdadeiro quando os dois forem falsos.
+
+- && = Conjunção = É meio que o "e". 
+	Só é verdadeiro quando os dois forem verdadeiros.
+
+- || = Disjunção = É meio que o "ou". 
+	Só é verdadeiro quando qualquer um doss dois for verdadeiro.
+
+
+============================================================
+
+		TERNÁRIO (Três operandos)
+
+	Teste ? true : false
+
+	media > 7? 'APROVADO' : 'REPROVADO'
+
+	
