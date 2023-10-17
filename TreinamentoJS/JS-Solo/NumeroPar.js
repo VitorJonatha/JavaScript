@@ -2,9 +2,9 @@
 
 function numeroPar(num) {
     if (num % 2 === 0) {
-        return true
+        return `O número ${num} é par`
     } else {
-        return false
+        return `O número ${num} é ímpar`
     }
 }
-console.log(numeroPar(10))
+console.log(numeroPar(20))
